@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-# QuickCart - A simple eCommerce website
 
-QuickCart is an open-source **Next.js eCommerce frontend** project.  
+# Trevia - A Modern eCommerce website
+
+Trevia is an open-source **Next.js eCommerce** project.  
 It provides a modern, fast and customizable shopping UI.  
-This repo is **frontend only** – contributors can improve the design, add new pages, animations and more.
+This repo is **Fullstack** – contributors can improve the design, add new pages, animations and more.
 
 ---
-
 ## Features
 
 -   Built with **Next.js + Tailwind CSS**
@@ -16,14 +15,13 @@ This repo is **frontend only** – contributors can improve the design, add new 
 -   Open for contributions (UI/UX, animations, themes, layouts etc.)
 
 ---
-
 ## Getting Started
 
 1. Clone the repo
 
     ```bash
-    git clone https://github.com/GreatStackDev/QuickCart.git
-    cd QuickCart
+    git clone https://github.com/Srijan8282/Trevia.git
+    cd Trevia
     ```
 
 2. Install dependencies
@@ -38,37 +36,5 @@ This repo is **frontend only** – contributors can improve the design, add new 
     npm run dev
     ```
 
----
-
-## Contributing
-
-We welcome all kinds of contributions! You can:
-
-- Create new pages
-- Improve layouts
-- Add animations and transitions
-- Enhance responsiveness
-- Refactor components
-- Suggest new UI/UX ideas
-- Add themes or color variations
-- Introduce accessibility improvements
-- Add filtering/search features
-- Improve documentation
-
-Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 🌟 Contributors
-
-Thanks to everyone who contributes to **QuickCart**!
-=======
 # Trevia
 E Commerce (Full Stack)
->>>>>>> 0aeb1b9747cd978c6c5e5133bf9daf22fc48384d
