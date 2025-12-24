@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { cacheTag } from "next/dist/server/use-cache/cache-tag";
 const productSchema = new mongoose.Schema({
     userId: {type: String, required: true, ref: "user"},
     name: {type: String, required: true},
