@@ -1,7 +1,7 @@
 import { Inngest } from "inngest";
-import connectDB from "./db";
 import User from "@/models/User";
 import Order from "@/models/Order";
+import connectDB from "@/config/db";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "Trevia-next" });
@@ -77,9 +77,10 @@ export const createUserOrder = inngest.createFunction(
         }
     },
     {
-        event: "clerk/created"
+        event: "order/created"
     },
     async ({events}) =>{
+        console.log("Order events received:", events);
         const orders = events.map((event)=>{
             return {
                 userId : event.data.userId,
@@ -92,6 +93,7 @@ export const createUserOrder = inngest.createFunction(
         })
         await connectDB()
         await Order.insertMany(orders)
+        console.log("✅ Orders saved");
 
         return {success : true, processed : orders.length};
 
